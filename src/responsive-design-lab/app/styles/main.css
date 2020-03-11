@@ -26,9 +26,17 @@
   overflow: auto;
 }
 
-.container .col {
+.flexbox .container .col {
   flex: 1;
   padding: 1rem;
 }
 
+@media screen and (max-width: 48rem) {
+    .flexbox .container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-flow: column;
+    }
+}
 
