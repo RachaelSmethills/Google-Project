@@ -23,7 +23,7 @@
   overflow: auto;
 }
 
-.flexbox .container .col {
+.container .col {
   flex: 1;
   padding: 1rem;
 }
